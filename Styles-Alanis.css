@@ -1,0 +1,120 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+/** NAVEGADOR **/
+
+nav {
+    background-color: #cb997e;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+nav a{
+    margin-right: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+
+/** ESTILO ANCHORS DEL NAVEGADOR**/
+
+.anchor-hover:hover {
+    background-color: goldenrod;
+    padding: 100px;
+  }
+
+/** SECCION 1ª**/
+
+.maintitle {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.image1 {
+    width: 370px;
+    height: 571px;
+    padding: 20px 20px;
+}
+
+#father-div {
+    display: flex;
+    justify-content: flex-start;
+    width:auto;
+    height: auto;
+}
+
+#container1 {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+#container2 {
+    margin: 10px 30px;
+    background-color: #d8e2dc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+#container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/**TABLE**/
+
+table {
+    border: solid 5px #cb997e;
+    border-style: dashed solid;
+    text-align: center;
+    background-color: #6b705c;
+    font-size: 20px;
+    table-layout: fixed;
+    padding: 10px;
+}
+
+thead {
+
+    background-color: #cb997e;
+    width: 40px;
+    padding: 10rem;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+    padding: 1rem;
+}
+
+thead th:nth-child(1) {
+    width: 10%;
+    padding: 1rem;
+}
+
+tbody {
+    background-color: #cb997e;
+}
+
+tr td{
+    padding: 1rem;
+}
+
