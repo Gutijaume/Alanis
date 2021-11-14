@@ -1,6 +1,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+    background-color: #6b705c;
 }
 
 p {
@@ -28,7 +29,7 @@ nav a{
 
 .anchor-hover:hover {
     background-color: goldenrod;
-    padding: 100px;
+    padding: 7px;
   }
 
 /** SECCION 1ª**/
